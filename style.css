@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100&display=swap');
+body, main{
+    padding: 0;
+    margin: 0;
+    overflow-y: hidden;
+}
+.container-one{
+    width: 100%;
+    height: 10vh;
+}
+.container-one nav{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    background-color: rgb(215, 190, 238);
+    flex-direction: row;
+    align-items: center;
+}
+.container-one nav ul{
+    width: 100%;
+    height: 10vh;
+    padding-left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.container-one nav ul li{
+    font-family: 'Antonio', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+}
+.container-one nav ul li:hover{
+    background-color:rgb(157, 101, 209) ;
+    cursor: pointer;
+}
+.container-two{
+    display: none;
+}
+
